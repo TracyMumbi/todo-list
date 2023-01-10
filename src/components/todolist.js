@@ -1,3 +1,5 @@
+import TodoItem from "./todoitem";
+
 function TodoList () {
     return (
         <div>
@@ -6,6 +8,7 @@ function TodoList () {
                 <li>two</li>
                 <li>three</li>
             </ul>
+            <TodoItem />
         </div>
     )
 }

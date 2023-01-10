@@ -3,3 +3,5 @@ function TodoItem () {
         <p>This is my todo item</p>
     )
 }
+
+export default TodoItem;
