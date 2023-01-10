@@ -1,5 +1,10 @@
+import TodoList from "../components/todolist";
+
 function Home () {
     return (
-        <p>This is my home page</p>
+        <div>
+            <p>This is my home page</p>
+            <TodoList />
+        </div>
     )
 }
